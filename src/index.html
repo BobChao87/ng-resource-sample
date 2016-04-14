@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<!--
+author: BobChao87
+date: 2016-04-12
+-->
+
+<html ng-app="ngResourceSample">
+  <head>
+    <title>ngResource Sample</title>
+    <script src="//code.angularjs.org/1.5.3/angular.js"></script>
+    <script src="//code.angularjs.org/1.5.3/angular-resource.js"></script>
+    <script src="js/ngResourceSampleController.js"></script>
+    <script src="js/ngResourceSample.js"></script>
+  </head>
+  
+  <body>
+    <div ng-controller="ResourceSampleController as sample">
+      <input ng-model="name" type="text" />
+      <span>Hello {{name}}</span>
+    </div>
+  </body>
+</html>
